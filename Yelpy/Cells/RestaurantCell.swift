@@ -7,10 +7,14 @@
 //
 
 import UIKit
+import AlamofireImage
 
 class RestaurantCell: UITableViewCell {
 
     @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var typeLabel: UILabel!
+    @IBOutlet weak var reviewLabel: UILabel!
+    @IBOutlet weak var phoneLabel: UILabel!
     @IBOutlet weak var restaurantimage: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
